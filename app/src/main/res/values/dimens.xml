@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="card_radius">8dp</dimen>
+    <dimen name="marginNormal">16dp</dimen>
+    <dimen name="margin_img_low">12dp</dimen>
 </resources>
