@@ -13,4 +13,34 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Text" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+    <style name="Text.One">
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+    <style name="Text.One.One">
+        <item name="android:fontFamily">"@font/dm_sans_regular"</item>
+    </style>
+
+    <style name="Text.One.Two">
+        <item name="android:fontFamily">"@font/dm_sans_medium"</item>
+        <item name="android:layout_marginTop">@dimen/marginLow</item>
+    </style>
+
+    <style name="Text.Two">
+        <item name="android:textSize">@dimen/sizeLow</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+
+
+
 </resources>
