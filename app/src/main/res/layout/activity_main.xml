@@ -10,20 +10,145 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/my_card"
-        android:orientation="horizontal"
         android:layout_marginHorizontal="@dimen/marginNormal"
         android:layout_marginTop="@dimen/marginNormal"
-        >
-        <ImageView
-            android:layout_width="93dp"
-            android:layout_height="93dp"
-            android:src="@drawable/img"
-            android:layout_marginHorizontal="@dimen/margin_img_low"
-            android:layout_marginVertical="@dimen/margin_img_low"
+        android:background="@drawable/my_card"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
 
-            />
-        
+        <ImageView
+            android:id="@+id/img_person"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            android:layout_marginHorizontal="@dimen/marginMedium"
+            android:layout_marginVertical="@dimen/marginMedium"
+            android:contentDescription="@string/description_image_person"
+            android:src="@drawable/img" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/marginMedium"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_person"
+                style="@style/Text"
+                android:layout_marginBottom="@dimen/marginLow"
+                android:fontFamily="@font/dm_sans_bold"
+                android:text="@string/person_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sizeNormal" />
+
+            <TextView
+                android:id="@+id/jop"
+                style="@style/Text"
+                android:layout_gravity="start"
+                android:fontFamily="@font/dm_sans_medium"
+                android:text="@string/job"
+                android:textColor="@color/color_secondary"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginLow"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/img_location"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginEnd="@dimen/marginVeryLow"
+                    android:contentDescription="@string/description_image_location"
+                    android:src="@drawable/ic_baseline_location_on_24" />
+
+                <TextView
+                    android:id="@+id/text_location"
+                    style="@style/Text"
+                    android:fontFamily="@font/dm_sans_regular"
+                    android:text="@string/location"
+                    android:textColor="@color/colorThird"
+                    android:textSize="@dimen/text_size_normal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/marginLow"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_reviews"
+                    style="@style/Text.Two"
+                    android:layout_marginEnd="@dimen/marginLow"
+                    android:fontFamily="@font/dm_sans_regular"
+                    android:text="@string/review"
+                   />
+
+                <TextView
+                    android:id="@+id/text_rate"
+                    style="@style/Text.Two"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/text_rate"
+                     />
+
+                <ImageView
+                    android:id="@+id/img_rate"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginStart="@dimen/marginVeryLow"
+                    android:contentDescription="@string/description_image_rate"
+                    android:src="@drawable/ic_baseline_star_rate_24"
+                    app:tint="@color/color_img_rate" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/marginMedium"
+            android:layout_marginEnd="@dimen/marginLow"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/number_hours"
+                style="@style/Text.One.One"
+                android:background="@drawable/container_text"
+                android:paddingHorizontal="@dimen/paddingLow"
+                android:paddingVertical="@dimen/paddingVeryLow"
+                android:text="@string/number_hours"
+                android:textColor="@color/white"
+
+                />
+
+            <TextView
+                android:id="@+id/city"
+                style="@style/Text.One.Two"
+                android:text="@string/city"
+                android:textColor="@color/color_secondary" />
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/Text.One.One"
+                android:layout_marginTop="@dimen/marginLow"
+                android:text="@string/time"
+                android:textColor="@color/color_fourth" />
+
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
