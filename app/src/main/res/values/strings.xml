@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Linear Layout Task</string>
+    <string name="person_name">Ahmed hassan</string>
+    <string name="job">Engineer</string>
+    <string name="location">UK</string>
+    <string name="review">(150 Reviews)</string>
+    <string name="text_rate">4.5</string>
+    <string name="description_image_person">image person</string>
+    <string name="description_image_location">image location</string>
+    <string name="description_image_rate">image rate</string>
+    <string name="number_hours">3 hr</string>
+    <string name="city">Russian</string>
+    <string name="time">5 Days ago</string>
 </resources>
