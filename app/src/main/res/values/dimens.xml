@@ -2,5 +2,14 @@
 <resources>
     <dimen name="card_radius">8dp</dimen>
     <dimen name="marginNormal">16dp</dimen>
-    <dimen name="margin_img_low">12dp</dimen>
+    <dimen name="marginMedium">12dp</dimen>
+    <dimen name="imageWidth">93dp</dimen>
+    <dimen name="imageHeight">93dp</dimen>
+    <dimen name="marginLow">8dp</dimen>
+    <dimen name="sizeNormal">16sp</dimen>
+    <dimen name="sizeLow">12sp</dimen>
+    <dimen name="marginVeryLow">4dp</dimen>
+    <dimen name="text_size_normal">13sp</dimen>
+    <dimen name="paddingLow">8dp</dimen>
+    <dimen name="paddingVeryLow">4dp</dimen>
 </resources>
